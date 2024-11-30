@@ -7,7 +7,8 @@ public class MethodType {
 	 * Static Method
 	 * Return Type Method 
 	 */
-	public static int hourlyIncome = 65;
+	// push to github.
+	public static int hourlyIncome = 68;
 	public static void main(String[] args) {
 		MethodType obj = new MethodType();
 		obj.annualIncomeVoid();
