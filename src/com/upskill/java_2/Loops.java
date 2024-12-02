@@ -6,7 +6,8 @@ public class Loops {
 		practiceForLoops();
 		practiceWhileLoops();
 		practiceDoWhileLoop();
-		practiceInfiniteLoops();
+		//practiceInfiniteLoops();
+		practiceNestedLoops();
 	}
 	
 	public static void practiceForLoops(){                  //For Loop - Do again and again upto upper limit.
@@ -32,12 +33,26 @@ public class Loops {
 			 
 		 }while(i<10);                                        //Setting Condition.
 	 }
-	 public static void practiceInfiniteLoops(){                  //For Loop - Do again and again up to upper limit.
+	 /*public static void practiceInfiniteLoops(){                  //For Loop - Do again and again up to upper limit.
 			int i;                                              //initialize the variable 
 			
 			for(i=1; ; i++){                               //Setting lower limit,No Upper limit and increment or decrement
 				System.out.println("Infinite loops=" +i);            //Statement
 			}
+		}*/
+	 public static void practiceNestedLoops(){                  //For Loop - Do again and again up to upper limit.
+			int i;                                              //initialize the variable 
+			int j;                                              //initialize the variable 
+			int size=10;                                                 
+			
+			for(i=1;i<=size ; i++){
+				for(j=1;j<=size ;j++){                                //Setting lower limit,No Upper limit and increment or decrement
+					int multiplication = i*j;
+				System.out.print( multiplication +" \t");            //Statement
+			}
+				System.out.println(" ");
+				
 		}
+	 }
 
 }
